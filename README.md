@@ -38,5 +38,9 @@ The variance for all of the lots does not exceed 100 (62<100). However, When the
 
 
 
+## 4. Study Design: MechaCar vs Competition
 
-## 4. Designing a Study Comparing the MechaCar to the Competition
+- What metrics to test: Maintenance cost
+- Hypotheses: H~0~ The average maintenance cost is similar to that of the competitor's vehicles; H~a~ MechaCar vehicles' average maintenance costs are statistically higher or lower than that of the competitor's vehicles.
+- Statisical test: Two-sample t-test because it is appropriate for determining wether two population means are equal.
+- Data required: The average yearly maintenance costs of both MechaCar's and the competitor's vehicles of similar type.
