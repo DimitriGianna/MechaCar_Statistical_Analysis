@@ -12,8 +12,9 @@
 - ground clearance: 0<0.05, statistically significant, non-random
 - AWD:  0.19>0.05, not statistically significant, random
 
-Vehicale length and ground clearance provided a non-random amount of variance to the mpg values in the dataset.
-All of the variables have slopes that are not equal to zero however some are very close to zero.
+- Vehicale length and ground clearance provided a non-random amount of variance to the mpg values in the dataset.
+- The slope of the linear model is not considered to be zero because the coefficients of the variables are not zero.
+- The linear models predicts mpg of MechaCar prototypes reasonably well because the R-squared = 0.7149, or roughly 71% accurate.
 
 
 ## 2. Summary Statistics on Suspension Coils
@@ -32,11 +33,13 @@ The variance for all of the lots does not exceed 100 (62<100). However, When the
 
 ![image](https://user-images.githubusercontent.com/112590378/207770167-85de861d-4c29-49db-8757-d2f39ef94f7f.png)
 
+The PSI across all manufacturing lots is not statistically different from the population mean.
+
 ### T-Test for Individual Lots
 
 ![image](https://user-images.githubusercontent.com/112590378/207770224-0fd775f3-0a04-4074-b957-b920433b4c7d.png)
 
-
+The PSI results for manufacturing Lots 1 and 2 are not statistically different from the population mean whereas the the results for Lot 3 indicate that Lot 3 differs statistically from the population mean.
 
 ## 4. Study Design: MechaCar vs Competition
 
